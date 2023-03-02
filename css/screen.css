@@ -218,7 +218,7 @@ h1 {
   margin: auto;
   background-color: #504A4B;
   text-align: center;
-  font-family: "Georgia", serif;
+  font-family: "Helvetica", serif;
   font-size: 1.50em;
   display: block;
   color:white;
@@ -231,11 +231,11 @@ p {
   margin: 0.1em;
   background-color: #666362;
   text-align: center;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Georgia", serif;
   font-size: 1.50em;
   display: block;
-  padding: 0.8em;
   color: white;
+  padding: 0.8em;
   position: relative;
   resize: vertical;
 }
@@ -247,12 +247,32 @@ p {
   font-family: "Times New Roman", Times, serif;
   font-size: 1.50em;
   display: block;
+  color: black;
   padding:0.6em;
-  color: white;
   position: relative;
   resize: vertical;
 }
 
+#input-email label{
+  display: inline-block;
+}
+
+#input-age-verification{
+  margin: 0.3em;
+  background-color: #A9A9A9;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.50em;
+  display: block;
+  color: black;
+  padding: 0.6em;
+  position: relative;
+  resize: vertical;
+}
+
+#input-age-verification label{
+  display: inline-block;
+}
 
 
 /* ===== STATE STYLES ======= */
