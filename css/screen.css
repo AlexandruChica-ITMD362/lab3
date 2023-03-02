@@ -210,7 +210,7 @@ main {
 }
 
 #content {
-  border-radius: 0.5em;
+  border-radius: 0.50em;
   padding: 1em;
 }
 
@@ -228,27 +228,27 @@ h1 {
 }
 
 p {
-  margin: 0.1em;
+  margin: 0.10em;
   background-color: #666362;
   text-align: center;
   font-family: "Georgia", serif;
   font-size: 1.50em;
   display: block;
   color: white;
-  padding: 0.8em;
+  padding: 0.80em;
   position: relative;
   resize: vertical;
 }
 
 #input-email {
-  margin: 0.2em;
+  margin: 0.20em;
   background-color: #686A6C;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   font-size: 1.50em;
   display: block;
   color: white;
-  padding:0.6em;
+  padding:0.60em;
   position: relative;
   resize: vertical;
 }
@@ -258,14 +258,14 @@ p {
 }
 
 #input-age-verification {
-  margin: 0.3em;
+  margin: 0.30em;
   background-color: #A9A9A9;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   font-size: 1.50em;
   display: block;
   color: white;
-  padding: 0.6em;
+  padding: 0.60em;
   position: relative;
   resize: vertical;
 }
@@ -275,14 +275,14 @@ p {
 }
 
 #input-submit {
-  margin: 0.4em;
+  margin: 0.40em;
   background-color: #C0C0C0;
   text-align: center;
   font-family: "Georgia", serif;
-  font-size: 1.2em;
+  font-size: 1.20em;
   display: block;
   color: white;
-  padding: 0.5em;
+  padding: 0.50em;
   resize: vertical;
 }
 
