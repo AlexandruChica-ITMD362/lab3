@@ -209,12 +209,12 @@ main {
   padding: 1em;
 }
 
-#content{
+#content {
   border-radius: 0.5em;
   padding: 1em;
 }
 
-h1{
+h1 {
   margin: auto;
   background-color: #504A4B;
   text-align: center;
@@ -227,7 +227,7 @@ h1{
   resize: vertical;  
 }
 
-p{
+p {
   margin: 0.1em;
   background-color: #666362;
   text-align: center;
@@ -239,6 +239,20 @@ p{
   position: relative;
   resize: vertical;
 }
+
+#input-email {
+  margin: 0.2em;
+  background-color: #686A6C;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.50em;
+  display: block;
+  padding:0.6em;
+  color: white;
+  position: relative;
+  resize: vertical;
+}
+
 
 
 /* ===== STATE STYLES ======= */
