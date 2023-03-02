@@ -204,6 +204,10 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 
+main {
+  background-color: #E5E4E2;
+  padding: 1em;
+}
 
 /* ===== STATE STYLES ======= */
 
