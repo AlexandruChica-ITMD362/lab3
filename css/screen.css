@@ -274,6 +274,21 @@ p {
   display: inline-block;
 }
 
+#input-submit{
+  margin: 0.4em;
+  background-color: #C0C0C0;
+  text-align: center;
+  font-family: "Georgia", serif;
+  font-size: 1.3em;
+  display: block;
+  color: black;
+  padding: 0.5;
+  resize: vertical;
+}
+
+input[type=submit]:hover {
+  background-color: #BCC6CC;
+}
 
 /* ===== STATE STYLES ======= */
 
