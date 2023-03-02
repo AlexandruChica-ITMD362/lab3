@@ -219,10 +219,14 @@ h1{
   color:white;
   padding: 0.75em;
   position: relative;
-  resize: vertical;
-  
-  
+  resize: vertical;  
 }
+
+#content{
+  border-radius: 0.5em;
+  padding: 1em;
+}
+
 
 /* ===== STATE STYLES ======= */
 
