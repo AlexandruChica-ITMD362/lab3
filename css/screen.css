@@ -247,7 +247,7 @@ p {
   font-family: "Times New Roman", Times, serif;
   font-size: 1.50em;
   display: block;
-  color: black;
+  color: white;
   padding:0.6em;
   position: relative;
   resize: vertical;
@@ -257,37 +257,54 @@ p {
   display: inline-block;
 }
 
-#input-age-verification{
+#input-age-verification {
   margin: 0.3em;
   background-color: #A9A9A9;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   font-size: 1.50em;
   display: block;
-  color: black;
+  color: white;
   padding: 0.6em;
   position: relative;
   resize: vertical;
 }
 
-#input-age-verification label{
+#input-age-verification label {
   display: inline-block;
 }
 
-#input-submit{
+#input-submit {
   margin: 0.4em;
   background-color: #C0C0C0;
   text-align: center;
   font-family: "Georgia", serif;
-  font-size: 1.3em;
+  font-size: 1.2em;
   display: block;
-  color: black;
-  padding: 0.5;
+  color: white;
+  padding: 0.5em;
   resize: vertical;
 }
 
 input[type=submit]:hover {
   background-color: #BCC6CC;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.50em;
+    padding: 1.25em;	
+  }
+  
+  p {
+    font-size: 1em;
+	padding: 1em;
+  }
+  
+  #input-email, #input-age-verification, #input-submit {
+	font-size: 0.60em;
+	padding: 15px;
+  }
 }
 
 /* ===== STATE STYLES ======= */
